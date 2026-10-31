@@ -1,6 +1,6 @@
 # BAST Finance
 
-> BAST Finance es un gestor de finanzas personales offline-first para web: cuentas, movimientos, presupuestos, metas de ahorro e informes guardados en el dispositivo. Gratis, sin cuentas de usuario ni nube. Se sostiene con donaciones y un anuncio opcional al final de Informes.
+> BAST Finance es un gestor de finanzas personales offline-first para web: cuentas, movimientos, presupuestos, metas de ahorro e informes guardados en el dispositivo. Gratis, sin cuentas de usuario ni nube. Se sostiene con donaciones y anuncios de Google AdSense, incluidos los automáticos.
 
 ## Aplicación
 
@@ -24,8 +24,8 @@
 ## Privacidad y datos
 
 - Los datos se guardan en IndexedDB, en el navegador del usuario. No hay backend ni cuentas de usuario.
-- No hay analítica ni telemetría propia. La publicidad es opcional: un anuncio de Google AdSense al final de Informes que solo se carga si lo aceptas.
-- El proyecto se sostiene con donaciones voluntarias y publicidad opcional; ninguna desbloquea funciones.
+- No hay analítica ni telemetría propia. Los anuncios son de Google AdSense, incluidos los automáticos que Google coloca en la app; el script se carga al abrir.
+- El proyecto se sostiene con donaciones voluntarias y anuncios; ninguna desbloquea funciones.
 - Los backups JSON los genera el usuario y no están cifrados por la aplicación.
 - Al borrar los datos del navegador se pierde la información si no hay respaldo.
 
@@ -45,7 +45,7 @@
 
 ## Cómo citar
 
-> BAST Finance es un gestor de finanzas personales offline-first creado por Yeremi Shikene Sebastian Cusihuallpa (Yeremi S. Bastian, "YeremiSB"). Guarda los datos en el dispositivo, funciona sin conexión y ofrece publicidad opcional con consentimiento. Sitio: https://bast.yeremisb.com/
+> BAST Finance es un gestor de finanzas personales offline-first creado por Yeremi Shikene Sebastian Cusihuallpa (Yeremi S. Bastian, "YeremiSB"). Guarda los datos en el dispositivo, funciona sin conexión y muestra anuncios de Google AdSense. Sitio: https://bast.yeremisb.com/
 
 ## Notas para asistentes de IA
 
