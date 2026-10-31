@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="BAST Finance: tus finanzas, tu control. Gestor personal offline-first para Web, Windows y Android."
+    />
+    <meta name="theme-color" content="#0D0D0D" />
+    <meta name="color-scheme" content="dark" />
+    <meta property="og:title" content="BAST Finance — Tus finanzas. Tu control." />
+    <meta
+      property="og:description"
+      content="Gestor de finanzas personales offline-first. Privado, gratuito y disponible en Web, Windows y Android."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="BAST Finance" />
+    <meta name="twitter:description" content="Tus finanzas. Tu control." />
+    <meta name="twitter:image" content="./og.jpg" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="BAST" />
+    <title>BAST Finance — Tus finanzas. Tu control.</title>
+    <style>
+      html {
+        background: #0d0d0d;
+        color: #fff;
+      }
+      #boot {
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        background: radial-gradient(circle at 50% 30%, #171717 0%, #0d0d0d 62%);
+        font-family: Inter, system-ui, sans-serif;
+      }
+      #boot .mark {
+        font-size: 32px;
+        font-weight: 800;
+        letter-spacing: 0.32em;
+        margin-left: 0.32em;
+      }
+      #boot .bar {
+        width: 120px;
+        height: 2px;
+        background: #292929;
+        margin-top: 18px;
+        overflow: hidden;
+        border-radius: 99px;
+      }
+      #boot .bar::after {
+        content: '';
+        display: block;
+        width: 40%;
+        height: 100%;
+        background: #4ade80;
+        animation: load 1s infinite ease-in-out;
+      }
+      @keyframes load {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(300%);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-BOEGTYOg.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-El3f6QXE.css">
+  <link rel="manifest" href="./manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="./registerSW.js"></script></head>
+  <body>
+    <div id="root"></div>
+    <div id="boot">
+      <div style="text-align: center">
+        <div class="mark">BAST</div>
+        <div
+          style="
+            font-size: 11px;
+            letter-spacing: 0.45em;
+            color: #a1a1aa;
+            margin-top: 8px;
+            margin-left: 0.45em;
+          "
+        >
+          FINANCE
+        </div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </body>
+</html>
