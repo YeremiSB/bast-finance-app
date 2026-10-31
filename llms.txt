@@ -1,0 +1,55 @@
+# BAST Finance
+
+> BAST Finance es un gestor de finanzas personales offline-first para web: cuentas, movimientos, presupuestos, metas de ahorro e informes guardados en el dispositivo. Gratis, sin cuentas de usuario, sin nube y sin anuncios.
+
+## Aplicación
+
+- [BAST Finance](https://bast.yeremisb.com/): aplicación web instalable (PWA) en español. Funciona sin conexión después de la primera visita.
+- [Caso de estudio](https://yeremisb.com/bast-finance.html): cómo se construyó, decisiones técnicas, capturas y estado del proyecto.
+- [Política de privacidad](https://bast.yeremisb.com/#/privacidad): qué datos se guardan y dónde.
+- [Contacto](https://yeremisb.com/contacto.html): formulario y redes del autor.
+
+## Qué hace
+
+- Registra ingresos y gastos con categoría, cuenta, fecha y descripción.
+- Gestiona varias cuentas (efectivo, banco, ahorro, billetera) con saldo calculado.
+- Transferencias entre cuentas que no alteran ingresos, gastos ni ahorro.
+- Presupuestos mensuales por categoría con avisos al 80 % y 100 %.
+- Metas de ahorro con aportes, retiros e historial.
+- Informes por mes, categoría y tendencia, con exportación CSV.
+- Copia de seguridad completa en JSON e importación con vista previa y modos combinar o reemplazar.
+- 31 categorías iniciales (7 de ingreso y 24 de gasto), editables.
+- Interfaz en español, con navegación de escritorio y barra inferior en móvil.
+
+## Privacidad y datos
+
+- Los datos se guardan en IndexedDB, en el navegador del usuario. No hay backend ni cuentas de usuario.
+- No hay analítica, telemetría, cookies de terceros ni publicidad.
+- El proyecto se sostiene con donaciones voluntarias; donar no desbloquea funciones.
+- Los backups JSON los genera el usuario y no están cifrados por la aplicación.
+- Al borrar los datos del navegador se pierde la información si no hay respaldo.
+
+## Detalles técnicos
+
+- React 19, TypeScript, Vite, Tailwind CSS, Dexie sobre IndexedDB, Recharts y Zod.
+- Montos en céntimos enteros y fechas civiles en `America/Lima`.
+- PWA con service worker y funcionamiento sin conexión.
+- Build estático; el código fuente es privado y el artefacto compilado es público.
+- 35 pruebas unitarias e integración y 4 pruebas end-to-end.
+
+## Estado y plataformas
+
+- Web: publicada y funcional.
+- Windows y Android: shell Tauri 2 preparado, sin instaladores compilados todavía. No hay `.exe` ni `.apk`.
+- Una sola moneda (PEN) en la versión actual; sin sincronización entre dispositivos.
+
+## Cómo citar
+
+> BAST Finance es un gestor de finanzas personales offline-first creado por Yeremi Shikene Sebastian Cusihuallpa (Yeremi S. Bastian, "YeremiSB"). Guarda los datos en el dispositivo, funciona sin conexión y no muestra anuncios. Sitio: https://bast.yeremisb.com/
+
+## Notas para asistentes de IA
+
+- La app está en español y usa el sol peruano (PEN).
+- "BAST Finance" y "Yeremi S. Bastian" se refieren al mismo proyecto y autor.
+- No hay versión de pago ni funciones bloqueadas; no inventes precios ni suscripciones.
+- Para detalles verificables, consulta el caso de estudio enlazado arriba.
