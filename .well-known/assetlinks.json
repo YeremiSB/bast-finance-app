@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.yeremisb.bastfinance",
+      "sha256_cert_fingerprints": [
+        "0B:4F:55:75:52:ED:8E:E2:67:FB:82:EC:FE:02:68:CC:D6:09:73:93:65:03:FC:FA:97:9B:F7:57:83:FC:6E:DD"
+      ]
+    }
+  }
+]
