@@ -1,26 +1,26 @@
-Ôªø# BAST Finance ‚Äî edici√≥n web
+# BAST Finance ó ediciÛn web
 
 > **Tus finanzas. Tu control.**
 
-Aplicaci√≥n web de finanzas personales offline-first. Este repositorio contiene solo el build
-est√°tico publicado; el c√≥digo fuente es privado y propietario.
+AplicaciÛn web de finanzas personales offline-first. Este repositorio contiene solo el build
+est·tico publicado; el cÛdigo fuente es privado y propietario.
 
-- **App:** https://yeremisb.github.io/bast-finance-app/
+- **App:** https://yeremisb.com/bast-finance-app/
 - **Producto:** BAST Finance
 - **Desarrollador:** YeremiSB
 - **Moneda:** PEN (S/)
 - **Privacidad:** los datos se guardan en el navegador de cada dispositivo. No hay backend.
-- **Offline:** despu√©s de la primera carga, la PWA funciona sin conexi√≥n.
+- **Offline:** despuÈs de la primera carga, la PWA funciona sin conexiÛn.
 
 ## Uso
 
-1. Abre la aplicaci√≥n en Edge o Chrome.
-2. Inst√°lala como PWA si quieres un acceso directo.
-3. Exporta un backup JSON desde Configuraci√≥n antes de limpiar el navegador o cambiar de
+1. Abre la aplicaciÛn en Edge o Chrome.
+2. Inst·lala como PWA si quieres un acceso directo.
+3. Exporta un backup JSON desde ConfiguraciÛn antes de limpiar el navegador o cambiar de
    dispositivo.
 
 ## Licencia
 
 Software propietario. Todos los derechos reservados. Consulta `LICENSE`.
 
-Este repositorio contiene archivos compilados; no se concede licencia sobre el c√≥digo fuente.
+Este repositorio contiene archivos compilados; no se concede licencia sobre el cÛdigo fuente.
